@@ -21,7 +21,7 @@ class TEST {
     protected function someProFunc(int $char, array $arr) : string
     {
         foreach ($this->var as $item) {
-
+            die(__FILE__);
         }
     }
 }
